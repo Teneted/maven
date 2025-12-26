@@ -1,0 +1,14 @@
+name: GitHub CI/CD
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  deploy:
+    uses: MohistMC/dockflow/.github/workflows/deploy.yml@main
+    with:
+      version: ${{ github.ref_name }}-${{ github.sha }}    
+    secrets: inherit
+

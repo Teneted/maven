@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "libraries",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libraries-0.2.jar",
+          "url": "libraries-0.2.jar",
+          "size": 6867,
+          "sha512": "cb5c326e0c06b8975c8480e7ef3793fa04316f9aac6a2f710e65c032f5b9b78d24e788d85fe871ae5707738b9fd2770a6241a7183475cb9efb6f235da65d0570",
+          "sha256": "ee923fe326d304fa71b5b6644fc4ef797cf0980c2956b10e3fa9d0c9f169908f",
+          "sha1": "d9b76f4ef4eb3c07310a996171305970d392760a",
+          "md5": "592ff7c3a869a18d327c0f95e5cb027d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mohistmc",
+          "module": "tools",
+          "version": {
+            "requires": "0.4"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libraries-0.2.jar",
+          "url": "libraries-0.2.jar",
+          "size": 6867,
+          "sha512": "cb5c326e0c06b8975c8480e7ef3793fa04316f9aac6a2f710e65c032f5b9b78d24e788d85fe871ae5707738b9fd2770a6241a7183475cb9efb6f235da65d0570",
+          "sha256": "ee923fe326d304fa71b5b6644fc4ef797cf0980c2956b10e3fa9d0c9f169908f",
+          "sha1": "d9b76f4ef4eb3c07310a996171305970d392760a",
+          "md5": "592ff7c3a869a18d327c0f95e5cb027d"
+        }
+      ]
+    }
+  ]
+}

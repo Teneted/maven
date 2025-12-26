@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "mohistdev",
+    "version": "1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mohistdev-1.20.1.jar",
+          "url": "mohistdev-1.20.1.jar",
+          "size": 103233933,
+          "sha512": "5bdf75b113a2930b20cc80033da6e9d381be1d4b43a7c59cd5bfa4ff52ea9aefdb2936ea1c645937ff7971c8c73c415d8969489424df8ee89f10a59ac20d571c",
+          "sha256": "b4fcb0420c40349a1a7c4be216f66c25f30b743592df18c09876b1dd437e3bb0",
+          "sha1": "729c70074f0fe7250e4c5c76eba178a314c0cd2e",
+          "md5": "7fa575d889d787c4ced175ecdac17113"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mohistdev-1.20.1.jar",
+          "url": "mohistdev-1.20.1.jar",
+          "size": 103233933,
+          "sha512": "5bdf75b113a2930b20cc80033da6e9d381be1d4b43a7c59cd5bfa4ff52ea9aefdb2936ea1c645937ff7971c8c73c415d8969489424df8ee89f10a59ac20d571c",
+          "sha256": "b4fcb0420c40349a1a7c4be216f66c25f30b743592df18c09876b1dd437e3bb0",
+          "sha1": "729c70074f0fe7250e4c5c76eba178a314c0cd2e",
+          "md5": "7fa575d889d787c4ced175ecdac17113"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mohistdev-1.20.1.jar",
+          "url": "mohistdev-1.20.1.jar",
+          "size": 103233933,
+          "sha512": "5bdf75b113a2930b20cc80033da6e9d381be1d4b43a7c59cd5bfa4ff52ea9aefdb2936ea1c645937ff7971c8c73c415d8969489424df8ee89f10a59ac20d571c",
+          "sha256": "b4fcb0420c40349a1a7c4be216f66c25f30b743592df18c09876b1dd437e3bb0",
+          "sha1": "729c70074f0fe7250e4c5c76eba178a314c0cd2e",
+          "md5": "7fa575d889d787c4ced175ecdac17113"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.industrial-craft",
+    "module": "industrialcraft-2",
+    "version": "2.8.222-ex112",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "industrialcraft-2-2.8.222-ex112.jar",
+          "url": "industrialcraft-2-2.8.222-ex112.jar",
+          "size": 8226721,
+          "sha512": "0de107fa424fa72a2ba3c80cacd0bd9b1d9e490d436674122a1919fb796163d5cdfbf5893d0d224eec691b5a42fb2dd39b94a2641cdf3bdfcc52ad6517d36b42",
+          "sha256": "1ab3190c19a75457c07f186477fccb210170d9ed7f8948b9ea05ae16c257d84e",
+          "sha1": "a3a89cf742112e9b269869edb23c2693b064292c",
+          "md5": "50bcd1ed6c0d3bac5ebada74e1dcdfef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "industrialcraft-2-2.8.222-ex112.jar",
+          "url": "industrialcraft-2-2.8.222-ex112.jar",
+          "size": 8226721,
+          "sha512": "0de107fa424fa72a2ba3c80cacd0bd9b1d9e490d436674122a1919fb796163d5cdfbf5893d0d224eec691b5a42fb2dd39b94a2641cdf3bdfcc52ad6517d36b42",
+          "sha256": "1ab3190c19a75457c07f186477fccb210170d9ed7f8948b9ea05ae16c257d84e",
+          "sha1": "a3a89cf742112e9b269869edb23c2693b064292c",
+          "md5": "50bcd1ed6c0d3bac5ebada74e1dcdfef"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "industrialcraft-2-2.8.222-ex112.jar",
+          "url": "industrialcraft-2-2.8.222-ex112.jar",
+          "size": 8226721,
+          "sha512": "0de107fa424fa72a2ba3c80cacd0bd9b1d9e490d436674122a1919fb796163d5cdfbf5893d0d224eec691b5a42fb2dd39b94a2641cdf3bdfcc52ad6517d36b42",
+          "sha256": "1ab3190c19a75457c07f186477fccb210170d9ed7f8948b9ea05ae16c257d84e",
+          "sha1": "a3a89cf742112e9b269869edb23c2693b064292c",
+          "md5": "50bcd1ed6c0d3bac5ebada74e1dcdfef"
+        }
+      ]
+    }
+  ]
+}

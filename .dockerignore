@@ -1,0 +1,7 @@
+deployment
+!deployment/docker/start.sh
+ansible
+.dockerignore
+.gitmodules
+.github
+.gitignore

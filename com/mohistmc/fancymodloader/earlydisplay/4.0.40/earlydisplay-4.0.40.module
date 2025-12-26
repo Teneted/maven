@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.fancymodloader",
+    "module": "earlydisplay",
+    "version": "4.0.40",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "earlydisplay-4.0.40.jar",
+          "url": "earlydisplay-4.0.40.jar",
+          "size": 261716,
+          "sha512": "016082cf35e7534f5f7b5595a4f7d7b2f1c4bc5177eb597c61cfffd066ebf3ebe5dde04a7f1037576a28cdacc1d1a5bbd3b93b27b9ce1cdc0bad85a67e47c074",
+          "sha256": "43c0545f20332587da64c9c5204d496da8830b793f1ea752eeb9a155158522c3",
+          "sha1": "3d5d3ad0c789ab7d0333e6dafcfde3ca8a2be639",
+          "md5": "1b1c939b559d12cd20d394a17241b359"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mohistmc.fancymodloader",
+          "module": "loader",
+          "version": {
+            "requires": "4.0.40"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-tinyfd",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.8.0-beta4"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "earlydisplay-4.0.40.jar",
+          "url": "earlydisplay-4.0.40.jar",
+          "size": 261716,
+          "sha512": "016082cf35e7534f5f7b5595a4f7d7b2f1c4bc5177eb597c61cfffd066ebf3ebe5dde04a7f1037576a28cdacc1d1a5bbd3b93b27b9ce1cdc0bad85a67e47c074",
+          "sha256": "43c0545f20332587da64c9c5204d496da8830b793f1ea752eeb9a155158522c3",
+          "sha1": "3d5d3ad0c789ab7d0333e6dafcfde3ca8a2be639",
+          "md5": "1b1c939b559d12cd20d394a17241b359"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "earlydisplay-4.0.40-sources.jar",
+          "url": "earlydisplay-4.0.40-sources.jar",
+          "size": 229984,
+          "sha512": "fb83cf830738635caf7c762ce4aa541cdf2b7dd7a03e6376016ffb94f4160db575a88b0a53d0081f250e1cc89e12825147dcf8e8da1de56388eca80dbdca4476",
+          "sha256": "f5608e16f974c9ddb4ac7d82720fea3ca4a2d44979587d9ff67f627b39756780",
+          "sha1": "d186f8f0cff76cdd7f12203562194e05c03f39dc",
+          "md5": "df086d9b0fa09ddad62e62ae73cbbbe4"
+        }
+      ]
+    }
+  ]
+}
