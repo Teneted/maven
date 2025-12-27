@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate index.html files
         run: |
-          python scripts/generate_index.py
+          python generate_index.py
 
       - name: Commit and push changes
         run: |
