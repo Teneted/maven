@@ -1,0 +1,19 @@
+# Teneted's Maven Repository
+
+This repository contains dependencies for Tenet(Mohist), NeoTenet and Taiyitist(Banner).
+
+Access `maven.qoriginal.vip` to download dependencies.
+
+## Project Structure
+
+We use pathes that correspond directly to the class names.
+
+eg. `io.izzel.tools` version 1.3.0 will be mapped to `/io/izzel/tools/1.3.0`, under the destinated folder, you will see the jar file itself and related 
+
+- md5
+- sha1
+- sha256
+- sha512
+
+for validations usage.
+
